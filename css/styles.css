@@ -1,0 +1,81 @@
+
+#title{
+  background-color:#E02401;
+}
+.navbar-brand{
+  font-size: 3rem;
+  font-family: 'Permanent Marker', cursive;
+}
+.nav-item{
+  padding: 0 5%;
+}
+.title-line{
+  font-size: 3rem;
+  padding-top: 9%;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bolder;
+  line-height: 1.5;
+}
+#products{
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+.car-img{
+  object-fit: fill;
+  height: 500px;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+#features{
+  text-align: center;
+  background-color: #FFCE45;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  padding: 5% 5%
+}
+.fas-ft{
+  padding: 10% 0 10% 0;
+}
+.fas-ft:hover{
+  color: #D4AC2B;
+}
+
+#catg-card{
+  text-align: center;
+  padding: 3rem;
+  font-family: 'Montserrat', sans-serif;
+}
+.catg-txt{
+  padding-bottom: 1rem;
+  font-size: 3rem;
+}
+.catg-tx{
+  padding-bottom: 2rem;
+}
+.img-crd{
+  object-fit: contain;
+  height:400px;
+  padding-bottom: 5px;
+}
+.crd{
+  padding-bottom: 20px;
+}
+#contact{
+  padding-top: 3rem;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+.info{
+  margin:0 20%;
+  padding: 3rem 3rem 0;
+  background-color: #FFCE45;
+  color: #4A403A;
+
+}
+.fas{
+  padding: 1rem 1rem;
+}
+.fab:hover{
+  color: #fff;
+}
