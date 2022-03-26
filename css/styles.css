@@ -1,80 +1,139 @@
-#title{
-  background-color:#FAEBCD;
+#title {
+  background-color: #FAEBCD;
 }
-.navbar-brand{
+
+.coloumns{
+  display: flex;
+}
+.coloumns2{
+  display: flex;
+}
+.coloumnh{
+  display: flex;
+}
+.coloumnf{
+  display: flex;
+}
+
+.boxes{
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 800px){
+  .coloumnh {
+    flex-direction: column;
+    grid-gap: 10px;
+  }
+}
+@media screen and (max-width: 1060px){
+  .coloumnf {
+    flex-direction: column;
+    grid-gap: 10px;
+  }
+}
+
+@media screen and (max-width: 660px){
+  .coloumns {
+    flex-direction: column;
+    grid-gap: 10px;
+  }
+}
+
+@media screen and (max-width: 1240px){
+  .coloumns2 {
+    flex-direction: column;
+    grid-gap: 10px;
+  }
+}
+
+.navbar-brand {
   font-size: 3rem;
   font-family: 'Permanent Marker', cursive;
 }
-.nav-item{
+
+.nav-item {
   padding: 0 5%;
 }
-.title-line{
+
+.title-line {
   font-size: 4rem;
   padding-top: 9%;
   font-family: 'Raleway', sans-serif;
   font-weight: bolder;
   line-height: 1.5;
 }
-#products{
+
+#products {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
 }
-.car-img{
+
+.car-img {
   object-fit: fill;
   height: 500px;
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
 
-#features{
+#features {
   text-align: center;
   background-color: #FFCE45;
   color: #fff;
   font-family: 'Montserrat', sans-serif;
   padding: 5% 5%
 }
-.fas-ft{
+
+.fas-ft {
   padding: 10% 0 10% 0;
 }
-.fas-ft:hover{
+
+.fas-ft:hover {
   color: #D4AC2B;
 }
 
-#catg-card{
+#catg-card {
   text-align: center;
   padding: 3rem;
   font-family: 'Montserrat', sans-serif;
 }
-.catg-txt{
+
+.catg-txt {
   padding-bottom: 1rem;
   font-size: 3rem;
 }
-.catg-tx{
+
+.catg-tx {
   padding-bottom: 2rem;
 }
-.img-crd{
+
+.img-crd {
   object-fit: contain;
-  height:400px;
+  height: 400px;
   padding-bottom: 5px;
 }
-.crd{
+
+.crd {
   padding-bottom: 20px;
 }
-#contact{
+
+#contact {
   padding-top: 3rem;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
 }
-.info{
-  margin:0 20%;
+
+.info {
+  margin: 0 20%;
   padding: 3rem 3rem 0;
   background-color: #FFCE45;
   color: #4A403A;
 
 }
-.fas{
+
+.fas {
   padding: 1rem 1rem;
 }
-.fab:hover{
+
+.fab:hover {
   color: #fff;
 }
